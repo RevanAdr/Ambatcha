@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Anime Ace BB";
+  src: url("./assets/fonts/animeace2_bld.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-matcha: #9dbf5a;
+  --color-forest: #1f3d2b;
+  --color-cream: #f2efe0;
+  --color-ink: #101010;
+  --color-blush: #e8a5a0;
+  --font-display: "Anime Ace BB", sans-serif;
+  --font-body: "Zen Kaku Gothic New", system-ui, sans-serif;
+  --shadow-ink: 4px 4px 0 #101010;
+  --shadow-ink-lg: 6px 6px 0 #101010;
+  --animate-pop: pop 0.45s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+  @keyframes pop {
+    0% {
+      transform: scale(0.85) rotate(-4deg);
+      opacity: 0;
+    }
+    70% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-cream font-body text-ink text-[1.05rem] leading-relaxed;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display leading-tight;
+  }
+  :focus-visible {
+    @apply outline-4 outline-offset-2 outline-forest;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply mx-auto w-[min(1200px,100%-2.5rem)];
+  }
+  .section {
+    @apply py-10 md:py-20;
+  }
+  .btn {
+    @apply inline-block min-h-11 cursor-pointer border-[3px] border-ink bg-matcha px-5 py-2.5 text-center font-bold transition;
+
+    @apply shadow-[5px_5px_0px_#000000];
+
+    /* [8px_8px_0px_#000000] */
+    @apply hover:translate-x-1 hover:translate-y-1 hover:shadow-[2px_2px_0px_#000000];
+
+    @apply active:translate-x-1.5 active:translate-y-1.5 active:shadow-none;
+  }
+  .btn-ghost {
+    @apply bg-white;
+  }
+  .btn-dark {
+    @apply bg-forest text-cream;
+  }
+  .sticker {
+    @apply inline-block -rotate-6 border-[3px] border-ink bg-blush px-2 py-0.5 font-display text-sm;
+  }
+  .bubble {
+    @apply relative border-[3px] border-ink bg-white px-4 py-2 font-display text-lg after:absolute after:-bottom-4 after:left-6 after:border-8 after:border-transparent after:border-t-[14px] after:border-t-ink after:content-[''];
+  }
+  .stepper {
+    @apply inline-flex border-[3px] border-ink bg-white;
+  }
+  .stepper button {
+    @apply size-11 cursor-pointer text-xl font-bold;
+  }
+  .stepper span {
+    @apply grid min-w-10 place-items-center border-x-[3px] border-ink font-bold;
+  }
+  .field {
+    @apply grid gap-1 font-bold;
+  }
+  .field :is(input, textarea) {
+    @apply border-[3px] border-ink bg-cream p-3 font-normal;
+  }
+  .halftone {
+    background-image: radial-gradient(
+      rgb(16 16 16 / 0.14) 1.2px,
+      transparent 1.6px
+    );
+    background-size: 12px 12px;
+  }
+  .speed-lines {
+    background-image: repeating-conic-gradient(
+      from 0deg at 70% 50%,
+      transparent 0 3deg,
+      rgb(16 16 16 / 0.09) 3deg 3.6deg
+    );
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

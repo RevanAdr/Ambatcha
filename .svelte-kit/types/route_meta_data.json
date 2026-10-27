@@ -1,0 +1,9 @@
+{
+	"/": [
+		"src/routes/+page.server.ts"
+	],
+	"/cart": [],
+	"/products/[slug]": [
+		"src/routes/products/[slug]/+page.server.ts"
+	]
+}

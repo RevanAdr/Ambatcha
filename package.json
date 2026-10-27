@@ -1,0 +1,30 @@
+{
+  "name": "ambatcha",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "deno task dev",
+    "build": "deno task build",
+    "preview": "deno task preview",
+    "check": "deno task check",
+    "db:setup": "deno run -A --env-file=.env scripts/db-setup.mjs",
+    "db:reset": "deno run -A --env-file=.env scripts/db-setup.mjs --reset"
+  },
+  "dependencies": {
+    "@sveltejs/adapter-vercel": "^7.0.1",
+    "pg": "^8.13.0",
+    "postgres": "^3.4.9"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^5.2.0",
+    "@sveltejs/kit": "^2.20.0",
+    "@sveltejs/vite-plugin-svelte": "^5.0.0",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/pg": "^8.11.0",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}
