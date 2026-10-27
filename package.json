@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "deno task dev",
-    "build": "deno task build",
+    "prebuild": "node scripts/db-setup.mjs",
+    "build": "vite build",
     "preview": "deno task preview",
     "check": "deno task check",
     "db:setup": "deno run -A --env-file=.env scripts/db-setup.mjs",
