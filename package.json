@@ -11,7 +11,7 @@
     "db:reset": "deno run -A --env-file=.env scripts/db-setup.mjs --reset"
   },
   "dependencies": {
-    "@sveltejs/adapter-vercel": "^7.0.1",
+    "@sveltejs/adapter-vercel": "^5.10.3",
     "pg": "^8.13.0",
     "postgres": "^3.4.9"
   },
