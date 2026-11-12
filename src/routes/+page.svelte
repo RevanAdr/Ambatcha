@@ -26,9 +26,9 @@
       </div>
     </div>
   </section>
-  
-  
-  <section id="shop" class="wrap section border-t-8 h-fit rotate-2 bg-cream -mt-8 w-full scale-103">
+
+
+  <section id="shop" class="wrap section border-t-8 h-fit rotate-2 bg-cream -mt-8 w-full scale-103 -translate-2.5">
     <div class="-rotate-2 px-10">
       <h2 class="text-3xl md:text-4xl">Pick your matcha</h2>
       <div class="mt-8 grid grid-cols-[repeat(auto-fill,minmax(260px,1fr))] gap-8" >
@@ -36,8 +36,8 @@
       </div>
     </div>
   </section>
-  
-  
+
+
   <section id="about" class="halftone border-y-8 translate-y-9 pb-6 scale-101 border-ink bg-white flex flex-col -ml-3 -rotate-2 relative z-10">
     <div class="wrap section grid items-start gap-8 md:grid-cols-2 rotate-2">
       <h2 class="text-3xl md:text-4xl">One cup, one chapter.</h2>
