@@ -26,7 +26,7 @@ export const options = {
 		app: ({ head, body, assets, nonce, env }) => "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n    <link href=\"https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap\" rel=\"stylesheet\" />\n    " + head + "\n  </head>\n  <body data-sveltekit-preload-data=\"hover\">" + body + "</body>\n</html>\n",
 		error
 	},
-	version_hash: "1jv2emr"
+	version_hash: "1o3lklt"
 };
 
 export async function get_hooks() {

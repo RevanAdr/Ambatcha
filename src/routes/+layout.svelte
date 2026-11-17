@@ -9,6 +9,7 @@
 </script>
 
 <svelte:head>
+    <link rel="icon" href="/ambatcha.svg" type="image/svg+xml" class="w-max h-auto">
   <title>{SHOP.name} | Matcha shop</title>
   <meta name="description" content="{SHOP.name}: matcha lattes, hojicha and flavored matcha drinks. Order straight on WhatsApp." />
   <meta property="og:site_name" content={SHOP.name} />
@@ -28,4 +29,3 @@
     </div>
   </footer>
 </main>
-

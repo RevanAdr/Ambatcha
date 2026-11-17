@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="212 118 301 315"
+   width="256"
+   height="256"
+   version="1.1"
+   id="svg24"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs24" />
+  <title
+     id="title1">ambatcha logo </title>
+  <!-- IKON -->
+  <g
+     id="ikon">
+    <path
+       id="badan"
+       d="m 219,222 c 9,76 71,110 131,110 60,0 122,-34 131,-110 z"
+       fill="#eef2d6" />
+    <g
+       id="garis-mangkuk"
+       fill="none"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-width="10">
+      <path
+         d="m 219,224 c 9,74 71,108 131,108 60,0 122,-34 131,-108"
+         stroke="#5e7d25"
+         id="path1" />
+      <path
+         d="m 235.63636,291.17846 c 12,48 64,74 118,74 54,0 106,-26 118,-74 6,-16 18,-22 36,-20"
+         stroke="#6e8e2d"
+         id="path2" />
+      <path
+         d="m 263.89571,342 c 10,38 50,58 90,58 40,0 80,-20 90,-58"
+         stroke="#8aa83f"
+         id="path3" />
+      <path
+         d="m 288.09091,388.41468 c 12,28 42,40 66,40 24,0 54,-12 66,-40"
+         stroke="#a8c25e"
+         id="path4" />
+    </g>
+    <ellipse
+       id="permukaan"
+       cx="350"
+       cy="215"
+       rx="118"
+       ry="32"
+       fill="#8fae45" />
+    <path
+       id="pusaran"
+       d="m 350,215 a 10,4 0 0 1 20,0 20,8 0 0 1 -40,0 30,12 0 0 1 60,0 40,16 0 0 1 -80,0"
+       fill="none"
+       stroke="#c5d98a"
+       stroke-width="4"
+       stroke-linecap="round" />
+    <ellipse
+       id="bibir"
+       cx="350"
+       cy="215"
+       rx="134"
+       ry="40"
+       fill="none"
+       stroke="#5e7d25"
+       stroke-width="8" />
+    <g
+       id="pucuk">
+      <path
+         d="m 345,208 c -23,-18 -27,-48 -9,-68 22,16 24,48 9,68 z"
+         fill="#6e8b2e"
+         id="path5" />
+      <path
+         d="m 360,205 c -15,-35 0,-70 32,-87 12,32 0,70 -32,87 z"
+         fill="#3f5e1a"
+         id="path6" />
+      <g
+         fill="none"
+         stroke="#fbfaf4"
+         stroke-width="3.5"
+         stroke-linecap="round"
+         id="g8">
+        <path
+           d="m 346,200 c -6,-16 -8,-34 -9,-50"
+           id="path7" />
+        <path
+           d="m 361,197 c 3,-25 14,-51 29,-69"
+           id="path8" />
+      </g>
+    </g>
+  </g>
+  <!-- TULISAN gaya retro gembul: bayangan -->
+  <!-- TULISAN gaya retro gembul: utama -->
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>ambatcha logo </dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

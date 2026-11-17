@@ -5,7 +5,9 @@
   let { data } = $props();
 </script>
 
-<svelte:head><title>{SHOP.name} | Matcha, drawn in bold ink</title></svelte:head>
+<svelte:head>
+    <title>{SHOP.name}, one cup one chapter</title>
+</svelte:head>
 
 <main class="h-fit overflow-hidden flex flex-col">
   <section class="border-t-ink bg-matcha mt-18">
